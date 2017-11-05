@@ -18,3 +18,27 @@ li {
 	
 	background-color: aqua;
 }
+
+ @media (min-width: 576px) {
+    button {
+        visibility: visible;
+    }
+}
+@media (min-width: 768px) {
+    button {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 992px) {
+    button {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 1200px) {
+    button {
+        visibility: hidden;
+    }
+
+}
